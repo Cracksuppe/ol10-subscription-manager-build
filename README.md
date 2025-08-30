@@ -8,7 +8,7 @@ The build process reuses the upstream sources from Red Hat's UBI 10 base image a
 
 ## How it works
 
-- The `build.sh` script determines the latest available version of:
+- The `build-rhsm-ol10.sh` script determines the latest available version of:
   - `subscription-manager`
   - `subscription-manager-rhsm-certificates`
 - A temporary Docker image is built (`build-rhsm:ol10-<git-hash>`).
