@@ -31,4 +31,4 @@ The build process reuses the upstream sources from Red Hat's UBI 10 base image a
 Clone the repository and run:
 
 ```bash
-./build.sh
+./build-rhsm-ol10.sh
